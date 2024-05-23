@@ -382,7 +382,7 @@ app.put("/users", (req, res) => {
     })
 
 });
-
+// fonction weather
 app.post("/weather", (req, res) => {
     console.log("Here into BL : weather", req.body);
     let key = "a5f8f80ed24bb65caa8303f8b1d28103";
